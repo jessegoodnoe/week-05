@@ -13,8 +13,4 @@ group :test do
   gem 'guard-rspec'
 end
 
-platforms :mswin, :mingw do
-  gem 'rb-fchange'
-  gem 'rb-notifu'
-  gem 'win32console'
-end
+gem 'growl_notify'
