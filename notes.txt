@@ -1,0 +1,22 @@
+h1. Community
+ruby-toolbox.com
+
+dotfiles project in UWE-Ruby github has good config settings
+https://github.com/UWE-Ruby/dotfiles
+
+h1. Ruby Debug
+gem install ruby-debug19 #if you're using 1.9.x
+gem install ruby-debug   #if you're using 1.8.7
+
+To debug on command line, add this to the code where you want a breakpoint
+require 'ruby-debug'
+debugger
+
+If you want to use it while running guard, make sure to add it to your Gemfile
+
+Important reby debugger commands
+- list (l) - shows the code around your ip
+- irb
+- (enter) - the last command, again
+
+http://think-like-a-git.net/
